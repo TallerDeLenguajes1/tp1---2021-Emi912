@@ -25,7 +25,7 @@ int main(){
 
     printf("\n");
 
-    printf("Invertir numeros a y b, escriba el valor de A\n");
+    printf("Ordenar numeros a y b, escriba el valor de A\n");
     scanf("%d", &a);
     printf("Escriba el valor de B\n");
     scanf("%d", &b);
@@ -64,6 +64,6 @@ void Invertir(int *a, int *b){
 void Orden(int *a, int *b){
     if (*a > *b)
     {
-        Invertir(a,b);
+        Invertir(a,b);              //Se invoca la funcion invertir
     }
 }
