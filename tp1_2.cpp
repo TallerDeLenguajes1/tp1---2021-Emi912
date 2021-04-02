@@ -25,12 +25,16 @@ int main(){
 
     printf("\n");
 
-    printf("Ordenar numeros a y b, escriba el valor de A\n");
+    printf("Invertir numeros a y b, escriba el valor de A\n");
     scanf("%d", &a);
     printf("Escriba el valor de B\n");
     scanf("%d", &b);
+    Invertir(&a,&b);
+    printf("A ahora es igual a %d y B es igual a %d \n", a,b );
+
+    printf("Ordenar numeros a y b \n");
     Orden(&a, &b);
-    printf("El valor de A ahora es %d, y el de B es %d", a, b);
+    printf("Numeros ordenados A =  %d, y B es %d", a, b);
 
 
     return 0;   
